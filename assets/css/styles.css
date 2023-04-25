@@ -1,5 +1,249 @@
-body {
-  margin: 0;
+/*
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+*/
+
+:root {
+  --main-gray: #272a31;
+  --main-red: #ec5242;
+  --main-light-gray: #d3d3d3;
+
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+* {
+  margin-top: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'lato', sans-serif;
+  /*background-color: var(--main-light-gray);*/
+}
+
+button {
+  background-color: red;
+}
+
+h1 {
+  color: var(--main-red);
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'COCOGOOSE', sans-serif;;
+  font-size: medium;
+}
+
+
+p {
+  font-family: 'lato';
+  font-size: medium;
+}
+
+hr {
+  width: 100px;
+  border-top: 1px solid var(--main-red);
+  margin-left: 0;
+}
+
+.full-width hr {
+  border-top: 1px solid var(--main-red);
+  margin-left: 0;
+}
+
+.my-bg-light {
+  background-color: var(--main-light-gray);
+}
+
+.my-bg-gray {
+  background-color: var(--main-gray);
+  color: var(--main-light-gray)
+}
+
+.my-bg-red {
+  background-color: var(--main-red);
+}
+
+.my-text-red {
+  color: var(--main-red);
+  font-weight: 200;
+}
+
+/*
+  GENERAL
+*/
+.space{
+  padding: 0 1%;
+}
+
+.display-desktop {
+  visibility: hidden;
+}
+
+
+/*
+  Navbar
+*/
+#logo {
+  width: 30%;
+  height: 30%;
+}
+
+#navbarExpand {
+  
+}
+
+.social {
+  width: 100%;
+  background-color: var(--main-gray);
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+}
+
+.navbar {
+  padding: 0rem;
+}
+
+.navbar-nav li {
+  padding: 0 1.5rem;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+.nav-item:last-child {
+  border: 3px solid var(--main-red);
+}
+
+.navbar-nav li:active {
+  color: var(--main-red);
+}
+/* 
+  MAIN 
+  - Carousel
+*/
+
+#carousel-img img{ /* ADD INLINE */
+  width: 100vw;
+  height: 50vh;
+}
+
+.carousel-caption { /* ADD INLINE */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+  font-size: 500%;
+  text-shadow: 1px 1px 10px #000; /* ADD A GRADIENT */
+}
+
+/*
+  PAST ANNUAL SUMMITS
+*/
+
+#jambotronImg,
+#speakerImg {
+  width: 80%;
+  height: 80%;
+  padding: 1rem;
+  border-radius: 0; /* or keep the default value */
+}
+
+.btn-lg {
+  background-color: var(--main-light-gray);
+}
+
+.btn-lg:hover {
+  background-color: var(--main-red);
+}
+/*
+  PAST ANNUAL SUMMITS
+*/
+#past-summits-images img{
+  width: 30%;
+  height: 5%;
+  row-gap: 1%;
+}
+.past-summits-img-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/*
+  Welcome Section for Page 2
+*/
+.about {
+  
+}
+
+/*
+  Past summits for Page 2
+*/
+.program-card {
+  background-color: var(--main-gray);
+}
+
+/*
+  Past Speakers and participants
+*/
+#speaker-img-background {
+  width: 100%;
+  height: 100%;
+  background: url(../img/logo/Logo_final_transparent.png) no-repeat;
+  background-size: 100%;
+}
+
+.participants {
+  width: 100%;
+  left: 10%;
+  top: 10%;
+  border-bottom-left-radius: 30% solid var(--main-gray);
+  background-color: var(--main-red);
+}
+
+/*
+  Footer
+*/
+
+.footer-text {
+  width: 100%;
+  height: 100%;
+  top: 20%;
+}
+
+
+@media (min-width: 768px) {
+  .display-mobile{
+    display: none;
+    visibility: hidden;
+  }
+
+  .display-desktop{
+    visibility: visible;
+  }
+}
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// md - Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// xs - Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
