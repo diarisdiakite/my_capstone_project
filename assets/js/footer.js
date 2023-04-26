@@ -1,4 +1,4 @@
-let myFooter = document.getElementById('footer');
+const myFooter = document.getElementById('footer');
 myFooter.innerHTML = `
   <div class="container">
     <div class="row">
@@ -6,9 +6,10 @@ myFooter.innerHTML = `
           <img id="jambotronImg" src="assets/img/logo/Logo_final_transparent.png" alt="">
         </div>
         <div class="col-8 py-5" id="footer-text">
-          <h6>
-            CEO Microsoft
+          <h6 class="bold">
+            2023 Annual SMSE Summit - Bamako(Mali)
           </h6>
+          <hr>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -19,4 +20,4 @@ myFooter.innerHTML = `
         </div>
       </div>
   </div>
-`
+`;
