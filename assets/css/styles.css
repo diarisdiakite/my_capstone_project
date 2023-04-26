@@ -20,7 +20,8 @@ body {
   width: 100%;
   height: 100%;
   font-family: 'lato', sans-serif;
-  /*background-color: var(--main-light-gray);*/
+
+  /* background-color: var(--main-light-gray); */
 }
 
 button {
@@ -34,10 +35,9 @@ h1 {
 h1,
 h2,
 h3 {
-  font-family: 'COCOGOOSE', sans-serif;;
+  font-family: 'COCOGOOSE', sans-serif;
   font-size: medium;
 }
-
 
 p {
   font-family: 'lato';
@@ -55,13 +55,17 @@ hr {
   margin-left: 0;
 }
 
+.bold {
+  font-weight: 600;
+}
+
 .my-bg-light {
   background-color: var(--main-light-gray);
 }
 
 .my-bg-gray {
   background-color: var(--main-gray);
-  color: var(--main-light-gray)
+  color: var(--main-light-gray);
 }
 
 .my-bg-red {
@@ -76,7 +80,7 @@ hr {
 /*
   GENERAL
 */
-.space{
+.space {
   padding: 0 1%;
 }
 
@@ -93,10 +97,6 @@ hr {
   height: 30%;
 }
 
-#navbarExpand {
-  
-}
-
 .social {
   width: 100%;
   background-color: var(--main-gray);
@@ -106,7 +106,7 @@ hr {
 }
 
 .navbar {
-  padding: 0rem;
+  padding: 0;
 }
 
 .navbar-nav li {
@@ -115,23 +115,36 @@ hr {
 
 .nav-link {
   font-size: 1.1rem;
+  font-weight: 300;
 }
 
 .nav-item:last-child {
   border: 3px solid var(--main-red);
 }
 
-.navbar-nav li:active {
+.navbar-nav .nav-link:active {
   color: var(--main-red);
 }
-/* 
-  MAIN 
+
+.button:active,
+.dropdown-menu:active,
+.dropdown-item:active {
+  border-color: #ec5242;
+}
+
+/*
+  MAIN
   - Carousel
 */
 
-#carousel-img img{ /* ADD INLINE */
+#carousel-img {
+  max-height: 60vh !important;
+}
+
+#carousel-img img { /* ADD INLINE */
   width: 100vw;
-  height: 50vh;
+  max-height: 60vh;
+  margin-top: 20%;
 }
 
 .carousel-caption { /* ADD INLINE */
@@ -149,12 +162,18 @@ hr {
   PAST ANNUAL SUMMITS
 */
 
-#jambotronImg,
-#speakerImg {
+#jambotronImg {
   width: 80%;
   height: 80%;
   padding: 1rem;
   border-radius: 0; /* or keep the default value */
+}
+
+#speakerImg {
+  width: 90%;
+  height: 60%;
+  padding: 1rem;
+  margin-left: 20%;
 }
 
 .btn-lg {
@@ -164,25 +183,32 @@ hr {
 .btn-lg:hover {
   background-color: var(--main-red);
 }
+
 /*
   PAST ANNUAL SUMMITS
 */
-#past-summits-images img{
+
+#past-summits-images img {
   width: 30%;
   height: 5%;
   row-gap: 1%;
 }
+
 .past-summits-img-caption {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
 
+.card-img-overlay {
+  /* background-color: var(--main-red); */
+}
+
 /*
   Welcome Section for Page 2
 */
 .about {
-  
+
 }
 
 /*
@@ -220,17 +246,17 @@ hr {
   top: 20%;
 }
 
-
 @media (min-width: 768px) {
-  .display-mobile{
+  .display-mobile {
     display: none;
     visibility: hidden;
   }
 
-  .display-desktop{
+  .display-desktop {
     visibility: visible;
   }
 }
+
 /*
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
