@@ -1,6 +1,6 @@
-let programCards = document.getElementById('program-cards');
+const programCards = document.getElementById('program-cards');
 
-if(window.innerWidth < 768){
+if (window.innerWidth < 768) {
   programCards.innerHTML += `
   <div class="card program-card ml-0 mr-0">
   <div class="row">
@@ -134,9 +134,9 @@ if(window.innerWidth < 768){
 
   </div>
 </div>
-  `
+  `;
 } else {
-programCards.innerHTML += `
+  programCards.innerHTML += `
 <div class="col-md-2 col-lg-2 col-xl-2">
 <div class="card program-card ml-0 mr-0">
   <img class="card-img-top w-25 h-25 mx-auto d-block" src="assets/img/icons/program-icons/program_icon_01.svg" alt="">
@@ -210,5 +210,5 @@ programCards.innerHTML += `
 </div>
 </div>
 </div>
-`
+`;
 }

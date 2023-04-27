@@ -1,6 +1,6 @@
 import { speakers, participants } from './list.js';
 
-//console.log(speakers);
+// console.log(speakers);
 
 const speakersContainer = document.getElementById('speakers');
 
@@ -47,5 +47,5 @@ participants.forEach((participant) => {
       </div>
     </div>
     
-    `
+    `;
 });

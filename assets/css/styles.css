@@ -2,14 +2,6 @@
   --main-gray: #272a31;
   --main-red: #ec5242;
   --main-light-gray: #d3d3d3;
-
-  font-family: 'COCOGOOSE', sans-serif;
-  font-family: 'lato';
-}
-
-@font-face {
-  font-family: 'lato';
-  src: url(https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap);
 }
 
 * {
@@ -49,7 +41,6 @@ h3 {
 }
 
 p {
-  font-family: 'lato';
   font-size: small;
 }
 
@@ -96,7 +87,6 @@ hr {
 .display-desktop {
   visibility: hidden;
 }
-
 
 /*
   Navbar
@@ -259,10 +249,10 @@ hr {
   z-index: 5;
 }
 
-
 /*
   Speakers and participants
 */
+
 #speaker-img-background {
   width: 100%;
   height: 100%;
