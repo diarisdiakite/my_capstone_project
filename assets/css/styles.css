@@ -1,13 +1,15 @@
-/*
-@import url('https://fonts.cdnfonts.com/css/cocogoose');
-*/
-
 :root {
   --main-gray: #272a31;
   --main-red: #ec5242;
   --main-light-gray: #d3d3d3;
 
   font-family: 'COCOGOOSE', sans-serif;
+  font-family: 'lato';
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url(https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap);
 }
 
 * {
@@ -29,6 +31,13 @@ button {
 }
 
 h1 {
+  color:
+    repeating-linear-gradient( /* idem for gazon outside */
+    var(--main-red),
+    var(--main-red) 6%,
+    var(--main-light-gray) 6%,
+    var(--main-gray) 9%
+  );
   color: var(--main-red);
 }
 
@@ -41,7 +50,7 @@ h3 {
 
 p {
   font-family: 'lato';
-  font-size: medium;
+  font-size: small;
 }
 
 hr {
@@ -92,6 +101,15 @@ hr {
 /*
   Navbar
 */
+
+.navbar-light .navbar-toggler-icon:active {
+  background-image: url(../img/close.svg);
+}
+
+.navbar-toggler-icon-active {
+  background-image: url(../img/close.svg);
+}
+
 #logo {
   width: 30%;
   height: 30%;
@@ -105,6 +123,10 @@ hr {
   justify-content: end;
 }
 
+.socials {
+  color: var(--main-light-gray);
+}
+
 .navbar {
   padding: 0;
 }
@@ -116,6 +138,15 @@ hr {
 .nav-link {
   font-size: 1.1rem;
   font-weight: 300;
+}
+
+.nav-item {
+  color: var(--main-gray);
+  font-weight: 300;
+}
+
+.nav-item:active {
+  color: var(--main-red);
 }
 
 .nav-item:last-child {
@@ -159,7 +190,7 @@ hr {
 }
 
 /*
-  PAST ANNUAL SUMMITS
+  ABOUT
 */
 
 #jambotronImg {
@@ -169,19 +200,24 @@ hr {
   border-radius: 0; /* or keep the default value */
 }
 
-#speakerImg {
-  width: 90%;
-  height: 60%;
-  padding: 1rem;
-  margin-left: 20%;
-}
-
 .btn-lg {
   background-color: var(--main-light-gray);
+  border: 1px solid var(--main-red);
 }
 
 .btn-lg:hover {
   background-color: var(--main-red);
+  border: 1px solid var(--main-red);
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  border: none;
+}
+
+.btn:not(:disabled):not(.disabled):active {
+  cursor: pointer;
+  border: 3px solid var(--main-red);
 }
 
 /*
@@ -196,36 +232,51 @@ hr {
 
 .past-summits-img-caption {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 60%;
+  transform: translateY(-60%);
 }
 
 .card-img-overlay {
   /* background-color: var(--main-red); */
+  width: inherit;
+  height: inherit;
+  filter: blur(0);
 }
 
 /*
-  Welcome Section for Page 2
-*/
-.about {
-
-}
-
-/*
-  Past summits for Page 2
+  PROGRAM
 */
 .program-card {
   background-color: var(--main-gray);
 }
 
 /*
-  Past Speakers and participants
+  Past summits for Page 2
+*/
+.myMask {
+  background-color: var(--main-red);
+  opacity: 50%;
+  z-index: 5;
+}
+
+
+/*
+  Speakers and participants
 */
 #speaker-img-background {
   width: 100%;
   height: 100%;
-  background: url(../img/logo/Logo_final_transparent.png) no-repeat;
-  background-size: 100%;
+  background: url(../img/icons/img-background/background.png) no-repeat;
+  background-size: 10%;
+}
+
+#speakerImg {
+  width: 80%;
+  height: 40%;
+  padding: 1rem;
+  margin-left: 20%;
+  background: url(../img/icons/img-background/background.png) no-repeat;
+  background-size: 30%;
 }
 
 .participants {
@@ -234,6 +285,17 @@ hr {
   top: 10%;
   border-bottom-left-radius: 30% solid var(--main-gray);
   background-color: var(--main-red);
+}
+
+#participants-img img {
+  width: 30%;
+  max-height: 5%;
+}
+
+.participants-img-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /*
