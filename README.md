@@ -19,6 +19,7 @@
 # ⭐️ [Show your support](#show-your-support)
 # 🙏 [Acknowledgments](#acknowledgment)
 # ❓ [FAQ (OPTIONAL)](#faq)
+# 📝 [Credit](#credit)
 # 📝 [License](#licence)
 
 <br><br>
@@ -57,7 +58,7 @@ client: HTML, CSS, Javascript, JQuery
 
 ## 🚀 <a name="live-demo"> Live Demo </a>
 
-[Live Demo](https://diarisdiakite.github.io/capstone/)
+[Live Demo](https://www.loom.com/share/7ea0fc378c374d87a9e7c9060381b260)
 
 ([`Back-to-top`](#My-capstone-project))
 
@@ -100,16 +101,6 @@ GitHub: github.com/diarisdiakite
 <br>LinkedIn: LinkedInhttps://www.linkedin.com/in/diariatou-diakite-67ab80165/
 <br><br>
 
-👤 Contributor1: Romans Spilaks
-
-GitHub: github.com/@obj583
-<br><br>
-
-👤 Contributor2: Benson
-
-GitHub: github.com/BenMKT
-<br><br>
-
 # 🔭 <a name="future-features">Future Features</a>
 Upcoming features will include:
 
@@ -141,17 +132,18 @@ Many thanks to my coding partners particularly to @Roman-adi (@obj583) for his g
 # ❓ <a name="faq">FAQ (OPTIONAL)</a>
 Here are the most common questions about this project.
 
-## [Are-U-available-for-a-job-?]
+## [Is-it-still-possible-to-register-as-a-speaker-for-the-annual-summit?]
 
 ### [Answer]
-[Yes]. I'm ready and available to work ideally as a Full stack developer. 
+[No]. The speakers have been selected months ahead of the summit. But if you are a tech company or evolving in the tech ciences with proven experience and are interested in the topic, please snt us your resume with link(s) to your works/realisation. 
 
 ## [Where-can-we-reach-out-to-you-?]
 
 ### [Answer_1]
-You can reach out to me through email [diarisdiakite@gmail.com]. 
+You can reach out to the organisation team by email [info@annualsummit.org]. 
+
+# 📝 <a name="credit">Credit</a>
+The design of this portfolio project was adapted from the original design idea by Cindy Shin in Behance [Behance](https://www.behance.net/adagio07).
 
 # 📝 <a name="licence">License</a>
 This project is [MIT](https://mit-license.org/) licensed.
-
-NOTE: we recommend using the MIT license - you can set it up quickly by using templates available on GitHub. You can also use any other license if you wish.
