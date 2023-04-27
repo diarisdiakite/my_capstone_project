@@ -2,19 +2,12 @@ const socials = document.getElementById('social');
 socials.innerHTML = `
 <div class="container display-desktop flex justify-content-end ">
         <ul class="row social">
-          <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-            <button type="button" class="btn my-bg-gray">Facebook</button>
-            <button type="button" class="btn my-bg-gray">Twitter</button>
-          
-            <div class="btn-group" role="group">
-              <button id="btnGroupDrop1" z-index="1000" type="button" class="btn my-bg-gray dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Languages
-              </button>
-              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                <a class="dropdown-item" href="#">French</a>
-                <a class="dropdown-item" href="#">English</a>
-              </div>
-            </div>
+          <div class="btn-group" role="group" aria-label="Button group">
+            <a type="button" class="btn my-bg-light-gray" href=""><img src="../assets/img/icons/socials/github.svg" /></a>
+            <a type="button" class="btn my-bg-light-gray" href=""><img src="../assets/img/icons/socials/twitter.svg" /></a>
+            <a type="button" class="btn my-bg-light-gray" href="">English</a>
+            <a type="button" class="btn my-bg-light-gray" href="">French</a>
+
           </div>
         </ul>
       </div>
