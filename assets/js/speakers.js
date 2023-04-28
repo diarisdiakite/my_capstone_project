@@ -10,11 +10,11 @@ speakers.forEach((speaker) => {
     <!-- Speaker card-->
       <div class="row">
         
-        <div class="col-xs-4 col-sm-4 col-md-4 col-xl-4 text-center" id="speaker-img-container">
+        <div class="col-xs-14 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center w-25" id="speaker-img-container">
           <img id="speakerImg" class="w-100 h-50 align-middle mt-5" src="${speaker.mainImageUrl}" alt="">
         </div>
         
-        <div class="col-xs-8 col-sm-8 col-md-8 col-xl-8">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 w-75">
           <h5 class="bold">
             ${speaker.name}
           </h5>
