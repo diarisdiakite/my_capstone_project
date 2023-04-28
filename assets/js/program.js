@@ -3,8 +3,8 @@ import { programs } from './list.js';
 const programCards = document.getElementById('program-cards');
 
 programs.forEach((program) => {
-if (window.innerWidth < 768) {
-  programCards.innerHTML += `
+  if (window.innerWidth < 768) {
+    programCards.innerHTML += `
   <div class="card program-card ml-0 mr-0">
   <div class="row" my-bg-light>
     <div class="col-3">
@@ -24,8 +24,8 @@ if (window.innerWidth < 768) {
   </div>
 </div>
   `;
-} else {
-  programCards.innerHTML += `
+  } else {
+    programCards.innerHTML += `
 <div class="col-md-2 col-lg-2 col-xl-2 px-1 py-1 text-center">
 <div class="card program-card ml-0 mr-0">
   <img class="card-img-top w-25 h-25 mx-auto d-block" src="${program.imgLink}" alt="">
@@ -37,6 +37,5 @@ if (window.innerWidth < 768) {
 </div>
 </div>
 `;
-}
-
-})
+  }
+});
