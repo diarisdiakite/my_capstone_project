@@ -72,9 +72,23 @@ hr {
   background-color: var(--main-red);
 }
 
+.my-border-red {
+  background-color: white;
+  border: 3px solid var(--main-red);
+}
+
+.my-border-white {
+  background-color: transparent;
+  border: 3px solid white;
+}
+
 .my-text-red {
   color: var(--main-red);
   font-weight: 200;
+}
+
+.my-text-gray {
+  color: var(--main-gray);
 }
 
 /*
@@ -93,11 +107,11 @@ hr {
 */
 
 .navbar-light .navbar-toggler-icon:active {
-  background-image: url(../img/close.svg);
+  background-image: url(../img/icons/close.svg);
 }
 
 .navbar-toggler-icon-active {
-  background-image: url(../img/close.svg);
+  background-image: url(../img/icons/close.svg);
 }
 
 #logo {
@@ -107,14 +121,35 @@ hr {
 
 .social {
   width: 100%;
+  height: 2rem;
   background-color: var(--main-gray);
   list-style-type: none;
   display: flex;
   justify-content: end;
 }
 
-.socials {
-  color: var(--main-light-gray);
+.social-item,
+.language {
+  color: white;
+}
+
+.social-item-link,
+.language-link {
+  color: white;
+  padding: 10%;
+  margin: 0 0.5rem;
+  background-color: transparent;
+}
+
+.social-item-link:hover,
+.language-link:hover {
+  color: var(--main-red);
+  text-decoration: none;
+}
+
+.social-icons {
+  color: red; /* TO FIX */
+  z-index: 1;
 }
 
 .navbar {
@@ -122,11 +157,12 @@ hr {
 }
 
 .navbar-nav li {
-  padding: 0 1.5rem;
+  padding: 0 0.4rem;
+  margin: 0 0.4rem;
 }
 
 .nav-link {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 
@@ -135,12 +171,12 @@ hr {
   font-weight: 300;
 }
 
-.nav-item:active {
-  color: var(--main-red);
-}
-
 .nav-item:last-child {
   border: 3px solid var(--main-red);
+}
+
+.nav-item:active {
+  color: var(--main-red);
 }
 
 .navbar-nav .nav-link:active {
@@ -157,6 +193,20 @@ hr {
   MAIN
   - Carousel
 */
+
+.main-bg-image {
+  width: 100vw;
+  height: 100%;
+  background: url(../img/carousel/1.jpeg) no-repeat;
+  background-size: cover;
+  opacity: 80%;
+}
+
+.heading-text-container {
+  width: 100%;
+  height: 100%;
+  top: 10%;
+}
 
 #carousel-img {
   max-height: 60vh !important;
@@ -182,6 +232,11 @@ hr {
 /*
   ABOUT
 */
+
+.about-text-container {
+  height: 100%;
+  top: 15%;
+}
 
 #jambotronImg {
   width: 80%;
@@ -243,6 +298,8 @@ hr {
 */
 .program-card {
   background-color: var(--main-gray);
+  filter: opacity(95%);
+  filter: grayscale(0%) contrast(90%);
 }
 
 /*
@@ -272,7 +329,7 @@ hr {
   width: 80%;
   height: 40%;
   padding: 15% 0 10% 15%;
-  margin-left: 20%;
+  margin-left: 10%;
   background: url(../img/icons/img-background/background.png) no-repeat;
   background-size: 30%;
 }
@@ -316,16 +373,27 @@ hr {
     visibility: visible;
   }
 
+  .about {
+    width: 100vw;
+    height: 90vh;
+  }
+
+  #heading-p {
+    width: 75%;
+    margin: 0 auto 5% 0;
+  }
+
+  #heading-p-about {
+    width: 75%;
+    margin: 0 auto 5% auto;
+  }
+
   .speakersContainer {
     width: 100%;
   }
-
-  
-
-
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   /*
   #speakerImg{
     padding: 0.2rem

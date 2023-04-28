@@ -33,70 +33,59 @@
 
   <main>
 
-      <!-- CAROUSEL -->
-    <div id="slides" class="carousel slide" data-ride="carousel">
-      <ul class="carousel-indicators">
-        <li data-target="#slides" data-slide-to="0" class="active"></li>
-        <!-- -->
-        <li data-target="#slides" data-slide-to="1"></li>
-        
-      </ul>
-      <div class="carousel-inner">
-        <div class="carousel-item w-100 active">
-          <img class="w-100 h-50 img-fluid" src="assets/img/carousel/3.jpg" alt="">
-          <div class="carousel-caption">
-            <h1 class="display-4 text-left">ANNUAL SMSE SUMMIT</h1>
-            <h2 class="display-4 text-left">2023.11.24(Fri) to 26(Sun)</h2>
-            <h3 class="display-5 text-left">@International Center of Conference - Bamako(Mali)</h3>
+    <!-- CAROUSEL -->
+    <div class="main-bg-image">
+    <div class="container-fluid my-bg-light">
+      
+      <div class="row text-left w-75 ml-5 p-5">
+        <div class="col-12 h-75 mt-5 heading-text-container">
+          <h1 class="display-4 mt-5 text-left">
+            ANNUAL 
+            <br>
+            SMSE SUMMIT
+            <br>
+            2023
+          </h1>
+          
+          <div class="col-12">
+            <p class="my-border-white text-left m-0 p-4" id="heading-p"> <!-- trying different classes //class="lead"-->
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              <br>
+            </p>
+          </div>
+
+          <div class="col-12">
+            <h2 class="display-4 text-left text-wrap my-text-gray">2023.11.24(Fri) ~ 26(Sun)</h2>
+            <h3 class="text-left my-text-gray">@International Center of Conference - Bamako(Mali)</h3>
           </div>
         </div>
-        <!-- -->
-        <div class="carousel-item w-100">
-          <img class="w-100 img-fluid" src="assets/img/carousel/2.jpg" alt="">
-          <div class="carousel-caption">
-            <div class="col-12">
-              <h2 class="display-5 my-text-red text-center lead bold">Theme: SMSE Digitalization challenges in developing countries</h2>
-              <p class="my-bg-light my-text-red bold lead p-4"> <!-- trying different classes //class="lead"-->
-                A worldwide competition between Small and Medium Size Entreprises.
-                with an Exhibition hall of 100 entreprises and high level speakers.
-                <br> 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, 
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-                <br>
-              </p>
-            <div class="mb-4">
-              <span class="badge my-bg-red p-3">Tech entreprises</span>
-              <span class="badge my-bg-red p-3">Craft industry</span>
-              <span class="badge my-bg-red p-3">Construction</span>
-              <span class="badge my-bg-red p-3">Food processing</span>
-            </div>
-            <h2>2023.11.24(Fri) to 26(Sun)</h2>
-            <h3>International Center of Conference - Bamako(Mali)</h3>
-          </div>
-        </div>
-        <!-- -->
       </div>
     </div>
+
     </div>
-      <!-- MAIN PROGRAM-->
+
+
+
+    <!-- MAIN PROGRAM-->
     <div class="container-fluid my-bg-gray py-4" id="main-program">
       <h3 class="text-center">
         Main program
       </h3>
       <hr class="full-width mx-auto mb-5">
       <div class="container">
-        <div id="program-cards" class="row text-center">
+        <div id="program-cards" class="row mx-auto">
           <!-- TO BE ADDED DYNAMICALLY-->
-
+          <div class="col-md-1 col-lg-1 col-xl-1 hidden-xl px-1 py-1 text-center"></div>
 
         
         </div>
         
       <!-- TO BE ADDED DYNAMICALLY-->
       </div>
+      <p class="text-center mt-5 mb-4">
+        SEE THE WHOLE PROGRAM
+      </p>
     </div>
     
     <!-- SPEAKERS -->
@@ -139,7 +128,7 @@
     <div class="container-fluid space my-bg-gray py-4" id="partners">
       <div class="row text-center space">
         <div class="col-12 mb-5">
-          <h3>Partner</h3>
+          <h3>Partners</h3>
           <hr class="full-width mx-auto mb-5">
         </div>
         
@@ -176,7 +165,7 @@
   <script src="assets/js/navbar.js"></script>
   <script type="module" src="assets/js/speakers.js"></script>
   <script src="assets/js/footer.js"></script>
-  <script src="assets/js/program.js"></script>
+  <script type="module" src="assets/js/program.js"></script>
 </body>
 
 
