@@ -32,8 +32,6 @@ speakers.forEach((speaker) => {
     `;
 });
 
-
-
 const participantsContainer = document.getElementById('participantsJs');
 
 participants.forEach((participant) => {

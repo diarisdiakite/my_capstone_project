@@ -4,7 +4,6 @@ const hideFooterDiv = document.getElementById('footer');
 const hideArrow = document.getElementById('see-more');
 
 window.addEventListener('load', () => {
-  
   if (window.innerWidth < 768) {
     if (hideSocialDiv.classList.contains('my-display-desktop')) {
       hideSocialDiv.classList.add('hidden');

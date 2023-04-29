@@ -5,7 +5,6 @@ const hidePartnersDiv = document.getElementById('partners');
 const hideFooterDiv = document.getElementById('footer');
 
 window.addEventListener('load', () => {
-  
   if (window.innerWidth < 768) {
     if (hideSocialDiv.classList.contains('my-display-desktop')) {
       hideSocialDiv.classList.add('hidden');

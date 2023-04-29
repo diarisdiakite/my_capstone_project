@@ -45,5 +45,3 @@ myNabar.innerHTML = `
         </div>
       </div>
 `;
-
-

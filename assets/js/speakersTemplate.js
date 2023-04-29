@@ -1,7 +1,5 @@
 import { speakers } from './list.js';
 
-
-
 const speakersContainer = document.getElementById('speakers');
 const speakersAddContainer = document.getElementById('speakers-added');
 const speakersButton = document.getElementById('see-all');
@@ -38,8 +36,8 @@ if (window.innerWidth < 768) {
     `;
   }
   speakersButton.addEventListener('click', () => {
-    for(let i=2; i<speakers.length; i+=1){
-      let speakerAdd=speakers[i];
+    for (let i = 2; i < speakers.length; i += 1) {
+      const speakerAdd = speakers[i];
       speakersAddContainer.innerHTML += `
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
     
@@ -68,8 +66,7 @@ if (window.innerWidth < 768) {
     </div>
     `;
     }
-  })
-
+  });
 } else {
   speakers.forEach((speaker) => {
     speakersContainer.innerHTML += `
