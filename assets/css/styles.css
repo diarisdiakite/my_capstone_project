@@ -320,12 +320,12 @@ hr {
 }
 
 #speakerImg {
-  width: 80%;
-  height: 40%;
-  padding: 15% 0 10% 15%;
+  width: 100%;  /* 80% */
+  height: 100%; /* 40% */
+  padding: 0;   /* 15% 0 10% 15% */
   margin-left: 10%;
   background: url(../img/icons/img-background/background.png) no-repeat;
-  background-size: 30%;
+  background-size: 0%; /* 30% */
 }
 
 .participants {
@@ -345,6 +345,19 @@ hr {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+}
+
+/*
+Partners
+*/
+
+#partner img {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+  filter:
+    invert(100%) saturate(0%) hue-rotate(300deg)
+    brightness(102%) contrast(150%);
 }
 
 /*

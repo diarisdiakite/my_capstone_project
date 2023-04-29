@@ -1,7 +1,7 @@
 export const speakers = [
   {
     status: 'speaker',
-    mainImageUrl: 'assets/img/speakers/1.jpeg',
+    mainImageUrl: 'assets/img/speakers/template/gate.png',
     name: 'Melinda Gate',
     position: 'Lorem ipsum dolor sit amet',
     presentation: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor',
@@ -13,7 +13,7 @@ export const speakers = [
   },
   {
     status: 'speaker',
-    mainImageUrl: 'assets/img/speakers/7.jpeg',
+    mainImageUrl: 'assets/img/speakers/template/elumelu.png',
     name: 'Dr Awele',
     position: 'Lorem ipsum dolor sit amet',
     presentation: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor',
@@ -25,7 +25,7 @@ export const speakers = [
   },
   {
     status: 'speaker',
-    mainImageUrl: 'assets/img/speakers/2.jpeg',
+    mainImageUrl: 'assets/img/speakers/template/ariel.png',
     name: 'Ariel',
     position: 'Lorem ipsum dolor sit amet',
     presentation: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor',
@@ -37,7 +37,7 @@ export const speakers = [
   },
   {
     status: 'speaker',
-    mainImageUrl: 'assets/img/speakers/4.jpeg',
+    mainImageUrl: 'assets/img/speakers/template/romans.png',
     name: 'Romans',
     position: 'Lorem ipsum dolor sit amet',
     presentation: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor',
@@ -49,7 +49,7 @@ export const speakers = [
   },
   {
     status: 'speaker',
-    mainImageUrl: 'assets/img/speakers/6.jpg',
+    mainImageUrl: 'assets/img/speakers/template/lincoln.png',
     name: 'Lincoln',
     position: 'Lorem ipsum dolor sit amet',
     presentation: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor',
@@ -61,7 +61,7 @@ export const speakers = [
   },
   {
     status: 'speaker',
-    mainImageUrl: 'assets/img/speakers/8.jpeg',
+    mainImageUrl: 'assets/img/speakers/template/adam.png',
     name: 'Adam',
     position: 'Lorem ipsum dolor sit amet',
     presentation: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor',
