@@ -26,7 +26,7 @@ speakers.forEach((speaker) => {
           <p>
             ${speaker.presentation}
           </p>
-          <button class="btn my-bg-red small bold mb-5">Register</button>
+          
           <br>  
         </div>    
       </div>

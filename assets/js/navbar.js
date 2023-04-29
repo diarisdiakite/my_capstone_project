@@ -2,8 +2,8 @@ const socials = document.getElementById('social');
 socials.innerHTML = `
 <div class="container-fluid w-75 display-desktop flex justify-content-end ">
         <ul class="row social">
-            <li class="social-item"><a class="social-item-link" href=""><img class="social-icon" src="../assets/img/icons/socials/github.svg" /></a></li>
-            <li class="social-item"><a class="social-item-link" href=""><img src="../assets/img/icons/socials/twitter.svg" /></a></li>
+            <li class="social-item"><a class="social-item-link" href=""><img class="social-icon" src="../assets/img/icons/socials/github.svg" alt="" /></a></li>
+            <li class="social-item"><a class="social-item-link" href=""><img src="../assets/img/icons/socials/twitter.svg" alt=""/></a></li>
             <li class="language"><a class="language-link" href="">English</a></li>
             <li class="language"><a class="language-link" href="">French</a></li>        
         </ul>
@@ -39,7 +39,7 @@ myNabar.innerHTML = `
             </li>
           
             <li class="nav-item">
-              <a class="nav-link" href="">CC Campaign</a>
+              <a class="nav-link" href="">AS Campaign</a>
             </li>
           </ul>
         </div>
