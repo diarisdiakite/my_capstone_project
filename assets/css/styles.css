@@ -90,6 +90,10 @@ hr {
   color: var(--main-gray);
 }
 
+.my-text-white {
+  color: white;
+}
+
 /*
   GENERAL
 */
