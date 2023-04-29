@@ -101,15 +101,12 @@ hr {
   padding: 0 1%;
 }
 
-.display-desktop {
+.hidden {
   visibility: hidden;
   height: 0;
+  display: none;
 }
 
-.display-mobile {
-  visibility: hidden;
-  height: 0;
-}
 /*
   Navbar
 */
@@ -199,7 +196,6 @@ hr {
 
 /*
   MAIN
-  - Carousel
 */
 
 .main-bg-image {
@@ -214,6 +210,12 @@ hr {
   width: 100%;
   height: 100%;
   top: 10%;
+}
+
+#main-text h2 {
+  font-weight: 700;
+  font-size: xx-large;
+  color: var(--main-gray);
 }
 
 #carousel-img {
@@ -385,8 +387,15 @@ Partners
     visibility: hidden;
   }
 
-  .display-desktop {
-    visibility: visible;
+  #main-text {
+    width: 75%;
+    margin-left: 5%;
+  }
+
+  #main-text h2 {
+    font-weight: 700;
+    font-size: xx-large;
+    color: var(--main-gray);
   }
 
   .about {

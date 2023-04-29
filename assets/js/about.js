@@ -1,6 +1,27 @@
-let mainContent = document.getElementById('aboutMain');
+const mainContent = document.getElementById('aboutMain');
 
-if(window.innerWidth < 768){
+const hideSocialDiv = document.getElementById('social');
+const hidePartnersDiv = document.getElementById('partners');
+const hideFooterDiv = document.getElementById('footer');
+
+window.addEventListener('load', () => {
+  
+  if (window.innerWidth < 768) {
+    if (hideSocialDiv.classList.contains('my-display-desktop')) {
+      hideSocialDiv.classList.add('hidden');
+    }
+
+    if (hidePartnersDiv.classList.contains('my-display-desktop')) {
+      hidePartnersDiv.classList.add('hidden');
+    }
+
+    if (hideFooterDiv.classList.contains('my-display-desktop')) {
+      hideFooterDiv.classList.add('hidden');
+    }
+  }
+});
+
+if (window.innerWidth < 768) {
   mainContent.innerHTML = `
     
   <!-- ABOUT SECTION FOR PAGE 2-->
@@ -175,7 +196,7 @@ if(window.innerWidth < 768){
     </div>
     
   </footer>
-  `
+  `;
 } else {
   mainContent.innerHTML = `
         
@@ -320,6 +341,5 @@ if(window.innerWidth < 768){
     </div>
     
   </footer>
-  `
-
+  `;
 }

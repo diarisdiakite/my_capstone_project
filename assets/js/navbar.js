@@ -46,4 +46,4 @@ myNabar.innerHTML = `
       </div>
 `;
 
-// myNabar.appendChild(navbarContent);
+

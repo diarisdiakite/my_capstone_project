@@ -1,7 +1,5 @@
 import { speakers, participants } from './list.js';
 
-// console.log(speakers);
-
 const speakersContainer = document.getElementById('speakers');
 
 speakers.forEach((speaker) => {
@@ -34,7 +32,7 @@ speakers.forEach((speaker) => {
     `;
 });
 
-// speakersContainer += speakerCardContent;
+
 
 const participantsContainer = document.getElementById('participantsJs');
 
