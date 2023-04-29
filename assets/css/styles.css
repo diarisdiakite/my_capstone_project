@@ -103,8 +103,13 @@ hr {
 
 .display-desktop {
   visibility: hidden;
+  height: 0;
 }
 
+.display-mobile {
+  visibility: hidden;
+  height: 0;
+}
 /*
   Navbar
 */
