@@ -43,16 +43,10 @@ client: HTML, CSS, Javascript, JQuery
 [My-capstone-project] key features are the following main projects:
 
 ``
-#### [Project-1](Setup and mobile version skeleton)
-#### [Project-2](Mobile version)
-#### [Project-3](Contact form)
-#### [Project-4](Desktop version)
-#### [Project-5](Application deploy)
-#### [Project-6](Evaluate accessibility)
-#### [Project-7](Mobile menu)
-#### [Project-8](Details modal)
-#### [Project-9](Validate contact form)
-#### [Project-10](Preserve data in the browser)
+#### [Project-feature1](Setup and mobile version skeleton)
+#### [Project-feature2](Mobile version)
+#### [Project-feature3](Desktop version)
+#### [Project-feature4](Application deploy)
 ``
 
 
