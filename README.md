@@ -58,7 +58,7 @@ client: HTML, CSS, Javascript, JQuery
 
 ## 🚀 <a name="live-demo"> Live Demo </a>
 
-[Live Demo](https://www.loom.com/share/7ea0fc378c374d87a9e7c9060381b260)
+[Live Demo](https://www.loom.com/share/f915379eeecf424883ed844b7a1568ea)
 
 ([`Back-to-top`](#My-capstone-project))
 
