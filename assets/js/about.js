@@ -22,9 +22,7 @@ window.addEventListener('load', () => {
 
 if (window.innerWidth < 768) {
   mainContent.innerHTML = `
-    
-  <!-- ABOUT SECTION FOR PAGE 2-->
-    
+      
   <div class="container-fluid my-bg-light">
       
     <div class="row text-center">
@@ -59,9 +57,7 @@ if (window.innerWidth < 768) {
   </div>
 
 
-  <!-- 
-    JAMBOTRON FOR PAGE 2 
-  -->
+  
   <div class="container-fluid py-4" id="general">
     <div class="row text-center">
       <!-- get rid of xs, sm and lg-->
@@ -103,7 +99,7 @@ if (window.innerWidth < 768) {
   </div>
 
 
-    <!-- ABOUT PAST EVENTS FOR PAGE 2-->
+    
     
     <div class="container mt-5 py-4 border-top-1">
       <div class="container-fluid">
@@ -142,27 +138,27 @@ if (window.innerWidth < 768) {
     </div> 
 
 
-    <!-- PARTNER DISPLAY MOBILE-->
+    
     <div class="container-fluid space my-bg-gray py-4" id="partners">
       <div class="row text-center space">
         <div class="col-12 mb-5">
           <h3>Partners</h3>
-          <hr class="full-width mx-auto mb-5">
+          <hr class="full-width mx-auto">
         </div>
         <div class="col-xs-1 col-sm-1 col-md-1 col-lg-hidden" id="partner"></div>
-        <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2 col-xl-2" id="partner">
+        <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-xl-2" id="partner">
           <a href=""><img class="" src="assets/img/logo/logo-partners/template/partner1.png" alt=""></a>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2 col-xl-2" id="partner">
+        <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-xl-2" id="partner">
           <a href=""><img class="" src="assets/img/logo/logo-partners/template/partner2.png" alt=""></a>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2 col-xl-2" id="partner">
+        <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-xl-2" id="partner">
           <a href=""><img class="" src="assets/img/logo/logo-partners/template/partner3.png" alt=""></a>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2 col-xl-2" id="partner">
+        <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-xl-2" id="partner">
           <a href=""><img class="" src="assets/img/logo/logo-partners/template/partner4.png" alt=""></a>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2 col-xl-2" id="partner">
+        <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-xl-2" id="partner">
           <a href=""><img class="" src="assets/img/logo/logo-partners/template/partner5.png" alt=""></a>
         </div>
       </div>
@@ -275,7 +271,6 @@ if (window.innerWidth < 768) {
   </div>
 
 
-    <!-- ABOUT PAST EVENTS FOR PAGE 2-->
     
     <div class="container mt-5 py-4 border-top-1">
       <div class="container-fluid">
