@@ -45,18 +45,18 @@
 ### 🛠 <a name="project-built-with">Built With </a>
 The following technologies has been used in developping this project. 
 
-#### <a name="tech-stack"> Tech Stack
-</a>
-```[Tech-stack]
+#### <a name="tech-stack"> Tech Stack</a>
 
+```[Tech-stack]
 client: HTML, CSS, Javascript, JQuery
 
 ```
 
 
+
 #### <a name="key-features"> Key Features </a>
 
-[My-capstone-project] key features are the following main projects:
+My-capstone-project key features are the following main projects:
 
 ```[Features]
 
