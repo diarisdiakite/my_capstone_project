@@ -48,7 +48,9 @@ The following technologies has been used in developping this project.
 #### <a name="tech-stack"> Tech Stack
 </a>
 ```[Tech-stack]
+
 client: HTML, CSS, Javascript, JQuery
+
 ```
 
 #### <a name="key-features"> Key Features </a>
@@ -113,8 +115,8 @@ GitHub: [@Didy](github.com/diarisdiakite)
 # {🔭 <a name="future-features">Future Features</a>
 Upcoming features will include:
 
- [peer-rating-projects]
- [quizzes-templates]
+ [peer-rating-projects]()
+ [quizzes-templates]()
  
 [Back to top](#My-capstone-project)
 
@@ -129,7 +131,7 @@ Feel free to check the issues page.
 If you like my [capstone] you can support my work. Visit my personal page www.didy-developer.me.
 Please follow us on @linkedin.com/diarisd and @twitter.com/diarisd
 
-(back to top)
+[Back to top](#My-capstone-project)
 
 ## 🙏 <a name="acknowledgments">Acknowledgments</a>
 I would like to thank the Microverse community to inspire and encourage everyday programmers and aspiring programmers.
