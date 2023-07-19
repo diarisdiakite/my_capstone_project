@@ -53,6 +53,7 @@ client: HTML, CSS, Javascript, JQuery
 
 ```
 
+
 #### <a name="key-features"> Key Features </a>
 
 [My-capstone-project] key features are the following main projects:
